@@ -4,8 +4,8 @@ using namespace std;
 
 vector<Bet> DAlembert::placeBets(Player& p){
     vector<Bet> bets;
-
-    double total = min(p.baseBet * step, p.balance);
+    double requested = min((double)p.baseBet * step, MAX_LIMIT);
+    double total = min(requested, p.balance);
     if (total < 0.001) return bets;
 
     double each = total / p.fixedCount;

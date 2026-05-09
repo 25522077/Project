@@ -6,6 +6,7 @@
 class Martingale : public BettingStrategy {
 private:
     double multiplier = 1.0;
+    const double MAX_LIMIT = 500.0;
 public:
     vector<Bet> placeBets(Player& p) override;
 

@@ -3,7 +3,8 @@
 using namespace std;
  vector<Bet> Martingale::placeBets(Player& p){
     vector<Bet> bets;
-    double total = min(p.baseBet * multiplier, p.balance);
+    double requested = min(p.baseBet * multiplier, MAX_LIMIT);
+    double total = min(requested, p.balance);
     if (total < 0.001) return bets;
 
     double each = total / p.fixedCount;

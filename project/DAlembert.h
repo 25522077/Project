@@ -7,6 +7,7 @@ using namespace std;
 class DAlembert : public BettingStrategy {
 private:
     int step = 1;
+    const double MAX_LIMIT = 500.0;
 public:
     vector<Bet> placeBets(Player& p) override;
 

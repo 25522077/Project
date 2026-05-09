@@ -8,7 +8,7 @@ class Fibonacci : public BettingStrategy {
 private:
     vector<int> fib = {1,1};
     int idx = 0;
-
+    const double MAX_LIMIT = 500.0;
     void ensure(int n);
 
 public:

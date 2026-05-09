@@ -9,7 +9,8 @@ vector<Bet> Fibonacci::placeBets(Player& p){
     vector<Bet> bets;
 
     ensure(idx);
-    double total = min(p.baseBet * fib[idx], p.balance);
+    double requested = min((double)p.baseBet * fib[idx], MAX_LIMIT);
+    double total = min(requested, p.balance);
     if (total < 0.001) return bets;
 
     double each = total / p.fixedCount;
