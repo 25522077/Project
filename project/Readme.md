@@ -1,16 +1,17 @@
-# Thành viên trong nhóm:
-###Nguyễn Đức Thạnh: 25521707
+Thành viên trong nhóm:
 
-###Nguyễn Phước Nhật Khang: 25520797
+Nguyễn Đức Thạnh: 25521707
 
-###Lương Trần Long Vũ: 25522077
+Nguyễn Phước Nhật Khang: 25520797
 
-#Trò chơi Roulette:
+Lương Trần Long Vũ: 25522077
 
-##1. Giới thiệu:
+Trò chơi Roulette:
 
-###- Roulette là trò chơi casino mà người chơi đặt cược vào một số, màu hoặc nhóm số trên bánh xe quay; sau đó dealer quay bánh xe và thả viên bi nhỏ chạy quanh, khi bi dừng và rơi vào ô nào thì đó là kết quả, người chơi thắng hoặc thua tùy theo lựa chọn ban đầu
+1. Giới thiệu:
 
-##2. Mục đích:
-###- Vận dung kiến thức của OOP và các chiến thuật để tìm ra cách giúp mình có lợi nhất
+- Roulette là trò chơi casino mà người chơi đặt cược vào một số, màu hoặc nhóm số trên bánh xe quay; sau đó dealer quay bánh xe và thả viên bi nhỏ chạy quanh, khi bi dừng và rơi vào ô nào thì đó là kết quả, người chơi thắng hoặc thua tùy theo lựa chọn ban đầu
+
+2. Mục đích:
+- Vận dung kiến thức của OOP và các chiến thuật để tìm ra cách giúp mình có lợi nhất
 Slide thuyết trình: https://www.canva.com/design/DAHJDRymQYk/-4EOyzgfMQWnUwolWpY64w/edit
